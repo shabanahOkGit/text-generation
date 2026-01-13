@@ -2,9 +2,9 @@ import streamlit as st
 from huggingface_hub import InferenceClient
 import os
 
-st.title('hugging face-chatbot')
+st.title('🤖 hugging-face chatbot')
 
-HF_TOKEN = st.secrets.get("HF_TOKEN") or os.environ.get("HF_TOKEN")
+HF_TOKEN = os.environ.get("HF_TOKEN") or st.secrets.get("HF_TOKEN")
 
 if not HF_TOKEN:
     st.error("HF_TOKEN not found")
