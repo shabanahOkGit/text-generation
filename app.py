@@ -8,7 +8,7 @@ st.markdown(
         🤖&nbsp;&nbsp;&nbsp;textGen Search
     </h1>
     <p style='text-align:center; font-size:16px; color:gray;'>
-        with Python & Hugging Face 🚀
+        with Python & Hugging Face 🔧
     </p>
     <hr>
     """,
