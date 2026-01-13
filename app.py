@@ -3,7 +3,15 @@ from huggingface_hub import InferenceClient
 import os
 
 st.markdown(
-    "<h1>🤖&nbsp;&nbsp;&nbsp;textGen search (with python ...)</h1>",
+    """
+    <h1 style='text-align:center;'>
+        🤖&nbsp;&nbsp;&nbsp;textGen Search
+    </h1>
+    <p style='text-align:center; font-size:16px; color:gray;'>
+        with Python & Hugging Face 🚀
+    </p>
+    <hr>
+    """,
     unsafe_allow_html=True
 )
 
