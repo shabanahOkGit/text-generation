@@ -2,7 +2,7 @@ import streamlit as st
 from huggingface_hub import InferenceClient
 import os
 
-st.title('🤖 Hugging face Hub (with python code)')
+st.title('🤖 Hugging face Hub ( with python code) ...')
 
 HF_TOKEN = os.environ.get("HF_TOKEN") or st.secrets.get("HF_TOKEN")
 
