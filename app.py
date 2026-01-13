@@ -2,7 +2,10 @@ import streamlit as st
 from huggingface_hub import InferenceClient
 import os
 
-st.title('🤖  textGen search ( with python ...)')
+st.markdown(
+    "<h1>🤖&nbsp;&nbsp;&nbsp;textGen search (with python ...)</h1>",
+    unsafe_allow_html=True
+)
 
 HF_TOKEN = os.environ.get("HF_TOKEN") or st.secrets.get("HF_TOKEN")
 
